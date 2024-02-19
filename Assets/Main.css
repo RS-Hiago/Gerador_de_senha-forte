@@ -1,0 +1,52 @@
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    padding: 20px;
+    box-shadow: 0 1px 10px #ccc;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    background-color: #999999;
+}
+
+input {
+    padding: 5px;
+    outline: none;
+    accent-color: var(--Fundo_slider);
+    border-color: var(--Fundo_slider);
+    border-radius: 5px;
+}
+
+input[type=checkbox]{
+    width: 18px;
+    height: 18px;
+}
+
+input[type=range]{
+width: 100%;
+}
+
+button{
+    background-color: var(--Fundo_slider);
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    padding: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    outline: none;
+    accent-color: var(--Fundo_slider);
+    border-color: var(--Fundo_slider);
+    border-radius: 5px;
+}

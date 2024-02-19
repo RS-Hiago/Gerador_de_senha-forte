@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@600&display=swap');
+@import url(./Main.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte_texto);
+}
+
+:root {
+    --fonte_texto: "Blinker", sans-serif;
+    --Fundo_botao: #3EB72B;
+    --Fundo_slider: #8a2be2;
+}
+

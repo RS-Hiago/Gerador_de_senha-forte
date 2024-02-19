@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senhas</title>
+    <link rel="stylesheet" href="./Assets/Global.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <input id="input" type="text" readonly>
+            <div>
+                <input id="slider" type="range" max="20" value="10">
+                <label for="slider">Comprimento da Senha: <span id="valor">10</span></label>
+            </div>
+            <div>
+                <input id="minuscula" type="checkbox">
+                <label for="minuscula">Letras minúsculas</label>
+            </div>
+            <div>
+                <input id="maiuscula" type="checkbox">
+                <label for="maiuscula">Letras maiúsculas</label>
+            </div>
+            <div>
+                <input id="numero" type="checkbox">
+                <label for="numero">Números</label>
+            </div>
+            <div>
+                <input id="especial" type="checkbox">
+                <label for="especial">Caracteres especiais</label>
+            </div>
+
+            <button id="botao" class="botao-cta" onclick="generatePassword()">Gerar senha</button>
+            <button id="limpar" class="botao-cta" onclick="limparSenha()">Limpar senha</button>
+        </div>
+    </main>
+    <script src="./Assets/script.js"></script>
+</body>
+</html>
