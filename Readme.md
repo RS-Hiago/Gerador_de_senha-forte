@@ -25,4 +25,4 @@ Este é um simples gerador de senhas fortes que visa fornecer senhas seguras par
 
 ## Hospedagem do Código
 
-Se você deseja experimentar a evolução do desenvolvimento deste gerador de senhas fortes, você pode acessar a versão mais recente do código hospedado no GitHub. Clique [aqui](https://rs-hiago.github.io/Gerador_de_senha_forte/) para acessar o repositório.
+Se você deseja experimentar a evolução do desenvolvimento deste gerador de senhas fortes, você pode acessar a versão mais recente do código hospedado no GitHub. Clique [aqui](https://rs-hiago.github.io/Gerador_de_senha-forte/) para acessar o repositório.
